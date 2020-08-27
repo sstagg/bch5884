@@ -1,0 +1,9 @@
+total 0
+-rw-rw-r-- 1 sstagg sstagg    0 Aug 31 11:46 listresults.txt
+-rw-rw-r-- 1 sstagg sstagg 3890 Aug 31 11:40 longfile10.txt
+-rw-rw-r-- 1 sstagg sstagg 3890 Aug 31 11:36 longfile2.txt
+-rw-rw-r-- 1 sstagg sstagg 3890 Aug 31 11:37 longfile3.txt
+-rw-rw-r-- 1 sstagg sstagg 3890 Aug 31 11:37 longfile7.txt
+-rw-rw-r-- 1 sstagg sstagg 3890 Aug 31 11:28 longfile.txt
+-rw-rw-r-- 1 sstagg sstagg  104 Aug 31 11:28 makelongfile
+-rwxr-xr-x 1 sstagg sstagg   37 Aug 31 11:22 our_first_script.py
