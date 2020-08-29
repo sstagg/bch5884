@@ -1,0 +1,4 @@
+first type git add gittest.txt
+then type git commit gittest.txt
+then type git push gittest.txt
+
