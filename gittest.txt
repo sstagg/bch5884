@@ -1,4 +1,19 @@
+Instructions for adding a file to git
+
 first type git add gittest.txt
 then type git commit gittest.txt
+	This will open up vi for your to add a comment
+	press i and enter a comment
+	then press esc, :wq, enter
 then type git push gittest.txt
+enter your github username and password
+
+
+
+To modify an existing file
+
+type git commit gittest.txt
+	enter comment as above
+then type git push gittest.txt
+enter user name and pass as above
 
