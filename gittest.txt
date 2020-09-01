@@ -1,4 +1,4 @@
-Instructions for adding a file to git
+Instructions for adding a file to git using the command line.
 
 first type git add gittest.txt
 then type git commit gittest.txt
