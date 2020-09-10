@@ -1,0 +1,108 @@
+/**************** layout **********/
+
+.navbar {
+      background: rgb(200,200,200);
+      float: left; /* the key is that the nav bar floats left and it's HTML code comes before the article content */
+      width: 100px;
+      margin: 0;
+      padding: 1em;
+      }
+
+img.floating {
+	float:left;
+	padding: 1px;
+	}
+
+/*********************************/
+
+
+/************** general formatting ********/
+#topline {
+      color:white;
+      background: grey;
+      text-align:center;
+      border: solid  5px grey;
+      }
+h1 {color:red;}
+
+body{ background:white;
+      font-family: Arial, sans serif; 
+      color: black;
+      }
+
+a:link {
+      color: red;
+      text-decoration: none;
+      }
+
+a:visited {
+      color: maroon;
+      text-decoration: none;
+      }
+
+a:hover {
+      color: maroon;
+      text-decoration: underline;
+      }
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	}
+
+td {
+	border: 1px dotted #AAAAAA;
+	padding: 10px;
+	}
+
+div {
+	width: 600px;
+	margin-left: 140px;
+	margin-right: 20px;
+	}
+
+/************************************/
+
+
+/*********** navbar **********/
+.navbar ul {
+      list-style: none;
+      padding: 0;
+      color: #111111
+      }
+
+.navbar a:link {
+      color: #333333;
+      text-decoration: none;
+      }
+
+.navbar a:visited {
+      color: #111111;
+      text-decoration: none;
+      }
+
+.navbar a:hover {
+      color: #111111;
+      text-decoration: underline;
+      }
+
+/****************************/
+
+
+/*********** article *********/
+.article { 
+	border: solid  1px #222222;     
+ 	}
+
+.article h1 {color:grey;
+      font-size: 1.5em;
+      text-align:center;
+      }
+      
+.article ul {
+      list-style: none;
+      padding: 0;
+      }
+
+
+/****************************/
