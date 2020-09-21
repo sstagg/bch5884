@@ -7,3 +7,5 @@ print (type (x))
 x=int(x)
 
 print(x+3)
+
+print(x+4)
