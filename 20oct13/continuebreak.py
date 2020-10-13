@@ -18,8 +18,8 @@ while n <10:
 		continue
 	print ("Second statement",n)
 else:
-	pass
-	#print ("Third statement",n)
+	#pass
+	print ("Third statement",n)
 print ("Fourth statement")
 print ("Fifth statement")
 print ("Done!")
