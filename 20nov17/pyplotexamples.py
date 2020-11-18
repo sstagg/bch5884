@@ -28,5 +28,5 @@ pyplot.ylim(-2,2)
 pyplot.xticks(numpy.linspace(-4,4,9, endpoint=True))
 pyplot.yticks(numpy.linspace(-2,2,5, endpoint=True))
 
-pyplot.savefig("sines.png",dpi=144)
-#pyplot.show()
+#pyplot.savefig("sines.png",dpi=144)
+pyplot.show()

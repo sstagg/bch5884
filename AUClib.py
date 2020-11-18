@@ -126,24 +126,24 @@ def plotVelocityData(aucdict,savename=False,fig=False):
 	if not fig:
 		fig=pylab.figure(1)
 	for n in range(aucdict['nscans']):
-		pylab.plot(aucdict['radius'],aucdict['scans'][n]['absorbance'], figure=fig, hold=True)
+		pylab.plot(aucdict['radius'],aucdict['scans'][n]['absorbance'], figure=fig)
 	if savename:
 		pylab.savefig(savename)
 
 def plotVHW(root_time, sed, lines, savename=False):
 	"""Plot boundary fractions and lines."""
 	for s in sed:
-		pylab.plot(root_time, s, linestyle='None', marker='.', hold=True)
+		pylab.plot(root_time, s, linestyle='None', marker='.')
 	for line in lines:
 		linex=[0,root_time[0]]
 		liney=scipy.polyval(line,linex)
-		pylab.plot(linex,liney, hold=True)
+		pylab.plot(linex,liney)
 	if savename:
 		pylab.savefig(savename)
 
 def plotSDistribution(lines, boundaryfrac, savename=False):
 	"""Plot distribution of S values."""
-	pylab.plot(lines[:,1], boundaryfrac, marker=".", hold=True)
+	pylab.plot(lines[:,1], boundaryfrac, marker=".")
 	if savename:
 		pylab.savefig(savename)
 
