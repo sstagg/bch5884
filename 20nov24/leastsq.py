@@ -36,10 +36,10 @@ print (res_lsq)
 t_test= np.linspace(t_min,t_max,n_points*10)
 y_true= gen_data(t_test, a,b,c)
 y_lsq= gen_data(t_test, *res_lsq[0])
-resid=y_true-y_lsq
+resid=y_train-gen_data(t_train, *res_lsq[0])
 
 plt.plot(t_train,y_train,'o')
 plt.plot(t_test, y_true, 'k', linewidth=2, label='true')
 plt.plot(t_test,y_lsq, label='fitted')
-plt.plot(t_test, resid,'ro')
+plt.plot(t_train, resid,'ro')
 plt.show()
